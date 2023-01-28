@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d("tag", "My app opened")
+        Log.d("tag", "My app opened");
     }
 
     @Override
@@ -38,11 +38,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
-        Log.d("tag", "My app Stoped")
+        Log.d("tag", "My app Stoped");
     }
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.d("tag", "My app closed")
+        Log.d("tag", "My app closed");
     }
 }
